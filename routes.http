@@ -1,0 +1,29 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title":"f",
+    "description":"Descriasidasd",
+    "duration":"100"
+}
+
+
+###
+
+GET http://localhost:3333/videos?search=f
+
+
+###
+PUT http://localhost:3333/videos/1d72ab52-ae73-4cbc-a823-4d2afe208312
+Content-Type: application/json
+
+{
+    "title":"titssssssssssssssu",
+    "description":"Descriasidasd",
+    "duration":"100"
+}
+
+###
+
+DELETE http://localhost:3333/videos/19d3f197-fd8c-452d-9d29-fca8d8627d7e
+
